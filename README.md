@@ -43,9 +43,9 @@ Test your system with:
 Analyze and document the quality of retrieval results.
 
 ## EXECUTION
-cd (FOLDER PATH)
-python -m venv venv
-venv\Scripts\activate.bat
-python -m pip install --upgrade pip
-pip install langchain langchain-community langchain-huggingface faiss-cpu chromadb sentence-transformers numpy pandas
-python app/main.py
+ - cd (FOLDER PATH)
+ - python -m venv venv
+ - venv\Scripts\activate.bat
+ - python -m pip install --upgrade pip
+ - pip install langchain langchain-community langchain-huggingface faiss-cpu chromadb sentence-transformers numpy pandas
+ - python app/main.py
